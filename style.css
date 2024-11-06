@@ -1,0 +1,229 @@
+h1 {
+  text-align: center;
+  font-size: 100px;
+  color: blue;
+}
+
+.lolkek {
+  width: 500px;
+  height: 200px;
+}
+
+.list {
+  list-style-type: none;
+  border: 3px solid rgb(21, 255, 0);
+  margin-bottom: 20px;
+  padding: 35px;
+}
+
+ul {
+  text-align: center;
+}
+
+
+nav {
+  text-align: center;
+}
+
+header {
+  background-color: aqua;
+  font-size: 36px;
+}
+
+nav a {
+  padding: 10;
+  border: 1px solid rgb(225, 255, 0);
+  border-radius: 10px;
+  font-size: 36px;
+  background-color: rgba(255, 0, 0, 0.374);
+  color: rgb(18, 28, 226);
+}
+nav a:hover {
+  background-color: blue;
+  color: brown;
+  transition: all 1s linear;
+}
+
+section {
+  width: 90%;
+  background-color: rgb(255, 0, 230);
+  margin: 20px auto 0;
+}
+section p {
+  font-size: 16px;
+  color: rgb(59, 17, 185);
+}
+
+iframe {
+  width: 100%;
+  height: 700px;
+}
+div.video-container iframe {
+  width: 530px;
+  height: 315px;
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20;
+  transform: translateX(-150%);
+}
+audio {
+  width: 100%;
+}
+section:hover {
+  transition: all is linear;
+  background-color: rgba(36, 36, 68, 0.226);
+}
+
+.video-sec:hover .video-container {
+  transition: all 1s linear;
+  transform: translateX(0);
+}
+
+.show-img {
+  width: 330px; /*ширина элемента*/
+  font-size: 24px; /*Размер шрифта*/
+  border: 1px solid blue; /* Граница(размер,тип линии,цвет) */
+  padding: 20px; /* Внутренний отступ */
+  text-align: center; /* Располагаем текст по центру*/
+  color: brown; /*изменение цвета цекста */
+  margin: 0 auto 20px;
+  /* Внешний отступ
+(отступ вверх,отступ слева и справа, отступ вниз)
+auto располагает элемент по центру
+родительского элемента */
+  background-color: aqua; /*изменение фонового цвета */
+  border-radius: 10px; /* используется для сглаживания углов */
+}
+
+.show-img-container > img {
+  opacity: 0;
+  /* делаем наше изображение прозрачным */
+}
+
+.show-img:hover ~ img {
+  opacity: 1;
+  transition: all 3s linear;
+}
+td img{
+  width: 100px;
+  height: 60px;
+  
+}
+ 
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th{
+  border: 2px solid black;
+  padding: 5px;
+}
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+tr:nth-child(odd){
+  background-color: white;
+}
+tr:hover{
+  background-color: #902eeb88;
+}
+th{
+  background-color: rgb(48, 212, 212);
+}
+td a{
+  color: blue;
+}
+table{
+  text-align: center;
+  font-size: 24px;
+}
+footer{
+  display: flex;
+  background-color: blue;
+  height: 60px;
+  align-items: center;
+  justify-content: center ;
+  gap: 30px;
+  color: white;
+}
+.img1{
+  width: 100%;
+}
+.w-70{
+  width: 70%;
+}
+.w-30{
+  width: 30%;
+}
+.two-cards{
+  display: flex;
+  gap:30px
+}
+
+.card{
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #e29494;
+}
+
+.galery-container{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+
+.galery{
+  width: 90%;
+}
+
+.galery-item{
+  margin-top: 10px;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  float: left;
+  width: 100%;
+  background: #333333;
+}
+
+.zoom{
+  display: block;
+  width: 85%;
+  margin: auto;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.zoom:hover{
+  transform: scale(1.05);
+  transition: all 0.3s linear;
+}
+
+.desc{
+  font-size: 18px;
+  color: #0096ff;
+  padding-left: 30px;
+}
+
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+label{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+form{
+  padding: 15px;
+}
